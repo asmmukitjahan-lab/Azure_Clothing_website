@@ -1,0 +1,18 @@
+export const products = [
+  { id: 1, name: 'Azure Essential Hoodie', category: 'Hoodies', price: 89, oldPrice: 110, badge: 'Sale', image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=1000&q=90', imageAlt: 'https://images.unsplash.com/photo-1578681994506-b8f463449011?auto=format&fit=crop&w=1000&q=90', colors: ['#153F38', '#D8E2D9', '#111111'], sizes: ['S', 'M', 'L', 'XL'], featured: true },
+  { id: 2, name: 'Everyday Oversized Tee', category: 'T-Shirts', price: 42, badge: 'New', image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=85', imageAlt: 'https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=900&q=85', colors: ['#F5F5EF', '#153F38'], sizes: ['S', 'M', 'L', 'XL'], featured: true },
+  { id: 3, name: 'Urban Utility Jacket', category: 'Jackets', price: 129, badge: 'New', image: 'https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=900&q=85', imageAlt: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=900&q=85', colors: ['#24584D', '#111111'], sizes: ['S', 'M', 'L', 'XL'], featured: true },
+  { id: 4, name: 'Premium Relaxed Cargo', category: 'Bottoms', price: 95, badge: 'Best Seller', image: 'https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=900&q=85', imageAlt: 'https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=900&q=85', colors: ['#153F38', '#A6B2AB'], sizes: ['28', '30', '32', '34'], featured: true },
+  { id: 5, name: 'Minimal Street Sneakers', category: 'Footwear', price: 120, oldPrice: 145, badge: 'Sale', image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=900&q=85', imageAlt: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85', colors: ['#F5F5EF', '#111111'], sizes: ['39', '40', '41', '42', '43'], featured: true },
+  { id: 6, name: 'Classic Zip Hoodie', category: 'Hoodies', price: 99, badge: 'New', image: 'https://images.unsplash.com/photo-1578681994506-b8f463449011?auto=format&fit=crop&w=900&q=85', imageAlt: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85', colors: ['#153F38', '#A6B2AB'], sizes: ['S', 'M', 'L', 'XL'], featured: true },
+  { id: 7, name: 'Essential Knit Sweater', category: 'T-Shirts', price: 110, image: 'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=900&q=85', imageAlt: 'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=900&q=85', colors: ['#D8E2D9', '#153F38'], sizes: ['S', 'M', 'L'], featured: true },
+  { id: 8, name: 'Modern Wide-Leg Pants', category: 'Bottoms', price: 85, badge: 'New', image: 'https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=900&q=85', imageAlt: 'https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=900&q=85', colors: ['#111111', '#D8E2D9'], sizes: ['28', '30', '32', '34'], featured: true }
+]
+
+export const categories = [
+  { name: 'Hoodies', image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=1000&q=92' },
+  { name: 'T-Shirts', image: 'https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=1000&q=92' },
+  { name: 'Jackets', image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1000&q=92' },
+  { name: 'Bottoms', image: 'https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=1000&q=92' },
+  { name: 'Footwear', image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1000&q=92' }
+]
