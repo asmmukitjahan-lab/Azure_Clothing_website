@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { CartProvider } from "./context/CartContext";
 import { WishlistProvider } from "./context/WishlistContext";
 import Navbar from "./components/layout/Navbar";
@@ -62,6 +63,7 @@ export default function App() {
           <Footer />
           <CartDrawer />
           <SearchModal />
+          <SpeedInsights />
         </WishlistProvider>
       </CartProvider>
     </BrowserRouter>
